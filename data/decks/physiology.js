@@ -21,10 +21,6 @@ PA.addSections('physiology', [
         back: 'Cell-to-cell communication through direct interaction of **surface molecules** on adjacent cells. (Gap junctions are another form of direct cell-to-cell communication.)',
       },
       {
-        front: 'Define **homeostasis** and the **internal milieu**.',
-        back: '**Homeostasis** ("same/standing") — the dynamic drive to keep a constant internal environment; requires integrated communication and function.\n\n**Internal milieu = extracellular fluid** — its composition, volume, pressure, temperature, pH, etc.',
-      },
-      {
         front: 'What percentage of body weight is **total body water**, and how is it divided?',
         back: 'TBW ≈ **60%** of body weight\n- **ICF** = **2/3** of TBW\n- **ECF** = **1/3** of TBW → interstitial fluid + plasma',
       },
@@ -41,16 +37,8 @@ PA.addSections('physiology', [
         back: 'TBW = 0.6 × 100 = **60 L**\nECF = 60 × 1/3 = **20 L** (20,000 mL)\nDose = 1 mg/100 mL × 20,000 mL = **200 mg**',
       },
       {
-        front: 'Define **interstitial fluid** vs **plasma**.',
-        back: '- **Interstitial fluid** — between cells but **not in vessels**\n- **Plasma** — the fluid **inside vessels** (between blood cells)',
-      },
-      {
         front: 'Why must ECF factors (pH, temperature, ions) be **tightly regulated**?',
         back: '**Proteins** (enzymes, receptors, channels, antibodies) work by **binding** things and only function optimally within narrow ranges. Anything that alters binding alters function.',
-      },
-      {
-        front: 'List several **homeostatically regulated** ECF factors.',
-        back: 'pH, pressure, volume, osmolarity, glucose, amino acids, fatty acids, Na⁺, K⁺, Ca²⁺, PO₄³⁻, O₂, CO₂ (hundreds in total).',
       },
       {
         front: 'Walk through the **negative feedback** loop when blood glucose rises after a meal.',
@@ -73,14 +61,6 @@ PA.addSections('physiology', [
         back: '- **Hyperglycemia** — **slow** (years); progressive vessel and tissue damage\n- **Hypoglycemia** — **rapid** (minutes); shakiness, sweating, confusion → seizure, coma, death',
       },
       {
-        front: 'What drives most cases of **type II diabetes**?',
-        back: '70–80% are associated with lifestyle — **body weight**, diet (quantity and quality), and **physical activity**. The rise in diabetes incidence tracks increasing body weight.',
-      },
-      {
-        front: 'What are the three steps of **rational drug design**?',
-        back: '1. Identify mechanisms of **normal** function (physiology)\n2. Identify mechanisms of **abnormal** function (pathophysiology)\n3. Use drugs to activate or inactivate the abnormal mechanisms',
-      },
-      {
         front: 'Diabetes drug classes: how do **sulfonylureas/meglitinides**, **GLP-1 mimetics**, and **DPP-4 inhibitors** work?',
         back: '- **Secretagogues** (sulfonylureas, meglitinides) — stimulate β-cell **insulin release**\n- **Incretin (GLP-1) mimetics** (Byetta, Victoza) — mimic GLP-1\n- **DPP-4 inhibitors** (-gliptins) — block breakdown of endogenous GLP-1',
       },
@@ -89,8 +69,16 @@ PA.addSections('physiology', [
         back: '- **Insulin sensitizers** (metformin, glitazones) — improve tissue response to insulin\n- **α-glucosidase inhibitors** (Precose) — slow intestinal carbohydrate absorption\n- **SGLT2 inhibitors** — block renal glucose reabsorption → glucose lost in urine',
       },
       {
-        front: 'Why does dysfunction in one organ system affect others?',
-        back: 'All systems are **linked and interdependent** — e.g., cardiovascular, respiratory, and renal systems together regulate O₂/CO₂, bicarbonate, and **acid–base** balance. Dysfunction leads to compensation and/or dysfunction elsewhere.',
+        front: 'Type I vs type II diabetes: which part of the glucose feedback loop fails?',
+        back: '- **Type I** — the **sensor/secretor** fails: insulin-producing **β-cells are lost** → lack of insulin\n- **Type II** — the **effector** fails: target cells are **insensitive/resistant** to insulin',
+      },
+      {
+        front: 'Blood glucose thresholds: what happens below **~70** and below **~50 mg/dL**?',
+        back: '- **~70 → 50:** shakiness, dizziness, nausea, sweating, irritability, weakness, headache\n- **< 50:** neural dysfunction → loss of consciousness, **seizure, coma, death**\n\n(Normal ≈ 100 mg/dL; hyperglycemia damage builds slowly over years.)',
+      },
+      {
+        front: 'What is **physiological reserve**? Use cardiac output as the example.',
+        back: 'The capacity to increase function above resting levels.\n- **Rest:** 70 bpm × 70 mL = **~4.9 L/min**\n- **Max exercise:** 200 bpm × 140 mL = **~28 L/min**\n\nDisease that "maxes out" reserve leaves no room to compensate.',
       },
     ],
   },
@@ -155,10 +143,6 @@ PA.addSections('physiology', [
         back: '- **Pulmonary edema** → ↑ **thickness** → impaired\n- **Alveolar/interstitial fibrosis** → scar tissue ↑ **thickness** → impaired (notably O₂)\n- **Supplemental O₂** → ↑ **partial pressure gradient** (P₁ − P₂) → improved',
       },
       {
-        front: 'About how many capillaries surround each **alveolus**?',
-        back: '~**1000** capillaries in each alveolar wall.',
-      },
-      {
         front: 'How do the transport **kinetics** of simple diffusion differ from mediated transport?',
         back: '- **Simple diffusion** — flux rises **linearly** with the gradient; no maximum\n- **Mediated transport** — flux **saturates** at **Tmax**, limited by the number of carriers',
       },
@@ -185,10 +169,6 @@ PA.addSections('physiology', [
       {
         front: 'Explain how **digoxin** increases myocardial contractility.',
         back: 'Inhibits **Na⁺/K⁺-ATPase** → ↑ intracellular Na⁺ → ↓ **Na⁺/Ca²⁺ exchanger** activity → ↑ intracellular **Ca²⁺** → ↑ **inotropy** → stronger contraction, ↑ stroke volume.\n\nUsed in certain heart failures (and atrial fibrillation).',
-      },
-      {
-        front: 'Name types of **membrane channels** beyond ligand- and voltage-gated.',
-        back: '- **Mechanically**-gated\n- **Temperature**-gated\n- **pH**-gated\n- **Aquaporins** (non-gated)',
       },
       {
         front: 'Which transport mechanisms **use ATP**, and which can be **saturated**?',
@@ -225,16 +205,8 @@ PA.addSections('physiology', [
         back: '**Affinity**, **reversibility** (usually reversible), **specificity** (with important cross-reactivities), agonism/antagonism, and **tissue specificity**.',
       },
       {
-        front: 'Name types of **agonists** used therapeutically.',
-        back: 'Natural/endogenous, **full**, **partial**, **super**, and **selective** agonists (e.g., albuterol is a selective β2 agonist).',
-      },
-      {
         front: 'Why does **Cushing\'s** (excess cortisol) or high-dose **prednisone** cause hypertension?',
         back: '**Receptor cross-reactivity**: cortisol/prednisone binds the **glucocorticoid** receptor (anti-inflammatory) **and** the **mineralocorticoid** receptor → Na⁺ and H₂O retention → ↑ BP.',
-      },
-      {
-        front: 'What is the key lesson of **tissue specificity** in pharmacology?',
-        back: '**Not all tissues have all receptors** — drugs act where their receptor is expressed (e.g., β1-blockers target the heart).',
       },
       {
         front: 'What are the four kinds of **surface membrane receptors**?',
@@ -481,20 +453,12 @@ PA.addSections('physiology', [
         back: '- **Dorsal (posterior)** root → sensory (afferent, ascending)\n- **Ventral (anterior)** root → motor (efferent, descending)\n\nThey join to form a **mixed** spinal nerve.',
       },
       {
-        front: 'What are the three **communication systems** of the body, and what makes the nervous system distinct?',
-        back: 'Nervous, endocrine, and cell-to-cell systems.\n\nThe nervous system provides **rapid, targeted** "sensing" and "effecting."',
-      },
-      {
         front: 'In physiology, what two things count as **"motor" functions**?',
         back: '**Muscle contractions** and **glandular secretions** (endocrine and exocrine).',
       },
       {
         front: 'How do the **sensory** and **motor** nervous systems work together to maintain homeostasis?',
         back: 'Altered internal environment → **sensory receptors** activated → input to CNS (interpretation/filtering) → CNS motor areas activated → **motor impulses to effector organs** → environment restored (negative feedback).',
-      },
-      {
-        front: 'What percentage of neurons in the body are **interneurons**?',
-        back: '**> 99%** — they sit between sensory afferents and motor efferents within the CNS.',
       },
       {
         front: 'What functions does the **spinal cord level** of the CNS handle?',
@@ -568,6 +532,14 @@ PA.addSections('physiology', [
         front: 'During which sleep phase does **hippocampal reactivation** for memory consolidation mostly occur?',
         back: '**Slow-wave sleep** — especially consolidation of **declarative** memory into the neocortex.',
       },
+      {
+        front: 'Brodmann areas: **primary motor**, **primary somatosensory**, **premotor**, **frontal eye field**?',
+        back: '- **Area 4** — primary motor cortex (precentral gyrus)\n- **Areas 3, 1, 2** — primary somatosensory cortex (postcentral gyrus)\n- **Area 6** — premotor\n- **Area 8** — frontal eye field',
+      },
+      {
+        front: 'Brodmann areas: **Broca**, **Wernicke**, **primary auditory**, **primary visual**?',
+        back: '- **44, 45** — Broca\'s area (motor speech, frontal lobe)\n- **22** — Wernicke\'s area (sensory speech, temporal lobe)\n- **41, 42** — primary auditory\n- **17** — primary visual (occipital)',
+      },
     ],
   },
   {
@@ -593,10 +565,6 @@ PA.addSections('physiology', [
       {
         front: 'What is the **labeled line principle**?',
         back: 'Each receptor is linked to a **dedicated neural pathway** for its specific modality, ending in a specific brain region. Activation anywhere along that line is perceived as that sensation at that site.\n\nLabeled lines give us **sensory discrimination**.',
-      },
-      {
-        front: 'What four kinds of stimuli alter **membrane permeability** to activate sensory receptors?',
-        back: '- Mechanical deformation\n- Temperature change\n- Light\n- Presence or absence of a chemical',
       },
       {
         front: 'Walk through **sensory receptor activation** from stimulus to nerve firing.',
@@ -637,10 +605,6 @@ PA.addSections('physiology', [
       {
         front: 'Fiber classification: **C (type IV)**?',
         back: '**~1 µm**, **0.5–2 m/s** (slowest, unmyelinated)\n- **Slow pain**\n- **Warmth** thermoreceptors\n- Mechanoreceptors\n- **Postganglionic ANS** (efferent)',
-      },
-      {
-        front: 'How are **ascending** spinal tracts named?',
-        back: 'Prefix **spino-** + the region where the tract enters the brain (e.g., spino**thalamic**, spino**cerebellar**, spino**tectal**).',
       },
       {
         front: 'Where does somatic sensory information **enter the CNS**, and what are the two main ascending pathways?',
@@ -807,8 +771,12 @@ PA.addSections('physiology', [
         back: '- NSAIDs\n- Local anesthetics\n- TRPV1 receptor antagonists\n- Opioids\n- **NMDA antagonists** (ketamine)\n- **GABA analogues** (gabapentin, pregabalin)',
       },
       {
-        front: 'What are the three categories of **pain management** methods?',
-        back: '- **Pharmacological** — non-narcotic & narcotic analgesics, psychotropics, local anesthetics\n- **Physical** — heat/cold, exercise/massage, TENS/acupuncture, neurosurgery\n- **Psychological** — biofeedback, operant methods, relaxation/meditation, hypnosis',
+        front: 'Referred pain map: where is pain from the **heart**, **liver/gallbladder**, and **lung/diaphragm** felt?',
+        back: '- **Heart** → left chest and **medial left arm** (also jaw/neck)\n- **Liver & gallbladder** → **right shoulder** / right scapula (and RUQ)\n- **Lung & diaphragm** → **neck and shoulder**',
+      },
+      {
+        front: 'Referred pain map: **appendix**, **small intestine**, **kidney/ureter**, **stomach/pancreas**?',
+        back: '- **Appendix** & **small intestine** → **periumbilical** area (appendix later localizes RLQ)\n- **Kidney** → **flank / low back**; **ureter** → flank radiating to **groin**\n- **Stomach** → epigastrium; **pancreas** → epigastrium radiating to the **back**\n- **Colon** → lower abdomen; **bladder** → suprapubic',
       },
     ],
   },
@@ -818,10 +786,6 @@ PA.addSections('physiology', [
     title: 'Motor Processes',
     source: 'Lecture 8 · Neurophysiology: Motor Processes',
     cards: [
-      {
-        front: 'What triggers **motor processes**, and what are the motor outputs?',
-        back: 'Sensory input (conditions threatening homeostasis) or **conscious thought** → efferent PNS → **muscle contractions and glandular secretions**.',
-      },
       {
         front: 'Where is most motor **circuitry** located, and what does the cortex do?',
         back: 'In **lower brain and spinal areas**. The cortex sends **activating signals** to those areas, which then send commands to muscles and glands.',
@@ -926,10 +890,6 @@ PA.addSections('physiology', [
         front: 'What additional functions does the **spinal cord** coordinate?',
         back: '- **Posture** reflexes\n- **Walking** reflexes — rhythmic stepping, reciprocal stepping of the opposite limb, **stumble reflex**\n- **GI and blood pressure** reflexes',
       },
-      {
-        front: 'What is the **stumble reflex**?',
-        back: 'If forward leg movement is blocked by a barrier, forward motion is **rapidly stopped and the leg is raised** — a spinal walking reflex.',
-      },
     ],
   },
 
@@ -1011,10 +971,6 @@ PA.addSections('physiology', [
         back: '- **Ca²⁺-ATPase pumps** return Ca²⁺ to the SR and out of the cell\n- **Na⁺/Ca²⁺ exchanger** also removes Ca²⁺\n- **K⁺ efflux** repolarizes the membrane',
       },
       {
-        front: 'How does the **cardiac action potential** differ from skeletal, and why does it matter?',
-        back: 'The cardiac AP is **much longer** (lasting nearly as long as the twitch itself), giving a long refractory period — so the heart **can\'t be tetanized** and must relax to refill.',
-      },
-      {
         front: 'How is **smooth muscle** structured differently?',
         back: 'Has thick and thin filaments but **no sarcomeres** (not striated). Thin filaments anchor to **dense bodies** instead of Z lines.',
       },
@@ -1046,6 +1002,14 @@ PA.addSections('physiology', [
         front: 'Which muscle types have **spontaneous APs**, and which **contract when stretched**?',
         back: '- **Spontaneous APs:** cardiac (certain cells) and **single-unit smooth**\n- **Contract in response to stretch:** **single-unit smooth only**',
       },
+      {
+        front: 'Define the sarcomere bands: **A band**, **I band**, **H zone**, **M line**, **Z line**.',
+        back: '- **A band** — full length of the **thick** filaments (includes overlap)\n- **I band** — **thin** filaments only (spans the Z line)\n- **H zone** — **thick** filaments only (center)\n- **M line** — middle of the sarcomere\n- **Z line** — anchors thin filaments; sarcomere = Z to Z',
+      },
+      {
+        front: 'Why can skeletal muscle be **tetanized** but cardiac muscle cannot?',
+        back: '- **Skeletal:** the AP (~5 ms) is **over before tension develops** → repeated APs can **summate** into tetanus\n- **Cardiac:** the AP (~200 ms) lasts **almost as long as the contraction** → long refractory period prevents summation, so the heart relaxes and refills',
+      },
     ],
   },
   {
@@ -1067,10 +1031,6 @@ PA.addSections('physiology', [
       {
         front: 'How does the **adrenal medulla** fit into the sympathetic system?',
         back: 'Preganglionic sympathetic neuron → **ACh → nicotinic** receptors on the adrenal medulla → releases **epinephrine** (and NE) into the **bloodstream**.',
-      },
-      {
-        front: 'Which receptor is found at **every autonomic ganglion**?',
-        back: '**Nicotinic** cholinergic receptors (preganglionic neurons release ACh in both divisions).',
       },
       {
         front: 'Define **cholinergic** vs **(nor)adrenergic** neuron.',
@@ -1121,8 +1081,12 @@ PA.addSections('physiology', [
         back: '- **Heart (β1)** — ↑ contractility & HR\n- **Airways (β2)** — bronchodilation\n- **Gut smooth muscle (β2)** — relaxation\n- **GI arterioles (α1)** — constriction (diverts blood)\n- **Adipocytes (β3)** — lipolysis',
       },
       {
-        front: 'Why does sympathetic activation stimulate **lipolysis** during exercise?',
-        back: '**Fat** is the energy substrate stored in the **greatest quantity** — the body mobilizes it via **β3** receptors ("do more with less").',
+        front: 'Where are the ganglia in the **sympathetic** vs **parasympathetic** systems?',
+        back: '- **Sympathetic:** ganglia **near the spinal cord** → **short preganglionic, long postganglionic** fibers\n- **Parasympathetic:** ganglia **near/in the target organ** → **long preganglionic, short postganglionic** fibers',
+      },
+      {
+        front: '**Nicotinic** vs **muscarinic** receptors: what kind of receptor is each, and where is each found?',
+        back: '- **Nicotinic** — **ligand-gated ion channel**; at **all autonomic ganglia**, the **adrenal medulla**, and the skeletal muscle **end-plate**\n- **Muscarinic** — **G protein-coupled**; on parasympathetic **target organs** (heart, smooth muscle, glands)',
       },
     ],
   },
@@ -1161,10 +1125,6 @@ PA.addSections('physiology', [
         back: '- **S1** — **AV valves close** (start of systole)\n- **S2** — **semilunar (aortic/pulmonic) valves close** (start of diastole)',
       },
       {
-        front: 'What two features **coordinate** the heart\'s pumping action?',
-        back: '1. A specialized **conduction system**\n2. Sets of **one-way valves**',
-      },
-      {
         front: 'Intrinsic depolarization rates of the **conduction system** (per slides)?',
         back: '- **SA node** ~90–100/min\n- **AV node** ~40–60/min\n- **Bundle branches** ~20–30/min\n- **Purkinje fibers** ~15–20/min\n- **Ventricular myocytes** ~10/min\n\nThe fastest (SA node) sets the rate.',
       },
@@ -1183,6 +1143,18 @@ PA.addSections('physiology', [
       {
         front: 'Primary functions of **monocytes, macrophages, lymphocytes**?',
         back: '- **Monocytes** — circulate, then become **macrophages** in tissue\n- **Macrophages** — phagocytosis, antigen presentation\n- **Lymphocytes** — adaptive immunity (**B cells** → antibodies; **T cells** → cell-mediated)',
+      },
+      {
+        front: 'What is the **dicrotic notch** on the aortic pressure curve?',
+        back: 'A brief dip/rebound in aortic pressure caused by **closure of the aortic valve** — marks the end of ejection and start of **isovolumic relaxation** (coincides with **S2**).',
+      },
+      {
+        front: 'On the LV volume curve, approximately what are **EDV** and **ESV**, and when does each occur?',
+        back: '- **EDV ≈ 130 mL** — at the end of filling (after atrial kick), just as the **mitral valve closes**\n- **ESV ≈ 65 mL** — at the end of ejection, just as the **aortic valve closes**\n\nSV = EDV − ESV ≈ 65–70 mL',
+      },
+      {
+        front: 'How does **autonomic** input change the cardiac cycle?',
+        back: '- **Sympathetic (β1):** ↑ HR (shorter cycle, mostly shorter **diastole/filling**), ↑ contractility → faster ejection & relaxation, ↑ SV\n- **Parasympathetic (vagal, muscarinic):** ↓ HR (longer diastole), slowed AV conduction (longer PR)',
       },
     ],
   },
@@ -1412,6 +1384,10 @@ PA.addSections('physiology', [
         front: 'What regulates **venous return**?',
         back: '- **Sympathetic** activity (venoconstriction)\n- **Skeletal muscle pump**\n- **Respiratory pump**\n\nVenous return governs ventricular filling, SV, and CO.',
       },
+      {
+        front: 'Where is most of the **blood volume** at rest?',
+        back: '- **Systemic veins/venules ≈ 61%**\n- Pulmonary circulation ≈ 12%\n- Arteries ≈ 11%\n- Heart ≈ 9%\n- Arterioles & capillaries ≈ 7%\n\n→ Veins are the **volume reservoir**.',
+      },
     ],
   },
   {
@@ -1455,10 +1431,6 @@ PA.addSections('physiology', [
         back: '- **Weight control**\n- **DASH diet** — ↑ fruits, vegetables, low-fat dairy, nuts; ↓ red meat, sweets, saturated fat, **Na⁺**; high in **K⁺, Ca²⁺, Mg²⁺**\n- **Exercise** — 30 min most days',
       },
       {
-        front: 'What are the BP effects of **exercise**?',
-        back: '**Acute** and **chronic** BP lowering, including a **post-exercise hypotension** phase.',
-      },
-      {
         front: 'List the eight classes of **antihypertensive** medications.',
         back: '1. Diuretics\n2. β-blockers\n3. ACE inhibitors\n4. ARBs\n5. Aldosterone receptor blockers\n6. Calcium channel blockers\n7. α-blockers\n8. Direct vasodilators',
       },
@@ -1489,6 +1461,10 @@ PA.addSections('physiology', [
       {
         front: 'What is used for **acute angina** or **hypertensive crisis**, and how does it work?',
         back: '**Nitric oxide donors** (e.g., **nitroglycerin**) → **direct vasodilation**.',
+      },
+      {
+        front: 'Where are the **arterial baroreceptors**, and which nerves carry their signals?',
+        back: '- **Carotid sinus** → **glossopharyngeal nerve (CN IX)**\n- **Aortic arch** → **vagus nerve (CN X)**\n\nBoth go to the **cardiovascular centers in the medulla**, which adjust sympathetic and vagal output.',
       },
     ],
   },
